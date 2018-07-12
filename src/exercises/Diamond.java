@@ -63,4 +63,20 @@ public class Diamond {
         this.lowerHalf(lines);
 
     }
+
+    public void diamondName(int lines, String name) {
+        this.upperHalf(lines);
+        System.out.println("");
+
+        int chars = lines*2 - 1;
+        int spaces = chars - name.length();
+        for (int s = spaces / 2; s > 0; s--) {
+            System.out.print(" ");
+        }
+        System.out.println(name);
+        System.out.println("");
+
+        this.lowerHalf(lines);
+
+    }
 }

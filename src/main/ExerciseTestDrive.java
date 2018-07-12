@@ -29,5 +29,8 @@ public class ExerciseTestDrive {
         System.out.println("\n\ndiamond: ");
         d.diamond(9);
 
+        System.out.println("\n\ndiamond with name: ");
+        d.diamondName(9, "Mona");
+
     }
 }
