@@ -1,6 +1,7 @@
 package main;
 
 import exercises.Diamond;
+import exercises.FizzBuzz;
 import exercises.Triangle;
 
 public class ExerciseTestDrive {
@@ -31,6 +32,10 @@ public class ExerciseTestDrive {
 
         System.out.println("\n\ndiamond with name: ");
         d.diamondName(9, "Mona");
+
+        System.out.println("\n\nFIZZBUZZ: ");
+        FizzBuzz fb = new FizzBuzz();
+        fb.fizzbuzz();
 
     }
 }
