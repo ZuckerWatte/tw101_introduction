@@ -14,7 +14,7 @@ public class ExerciseTestDrive {
         t.singleStar();
 
         System.out.println("\nhorizontal line: ");
-        t.horizontalStars(8);
+        t.horizontalStars(15);
 
         System.out.println("\n\nvertical line: ");
         t.verticalStars(3);
@@ -25,6 +25,9 @@ public class ExerciseTestDrive {
         System.out.println("\n\nDIAMOND");
         System.out.println("\nisosceles triangle: ");
         d.isoscelesTriangle(4);
+
+        System.out.println("\n\ndiamond: ");
+        d.diamond(9);
 
     }
 }
