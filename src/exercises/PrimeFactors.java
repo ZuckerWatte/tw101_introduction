@@ -14,6 +14,11 @@ public class PrimeFactors {
             }
         }
 
+        HashSet<Integer> unique = new HashSet<>();
+        unique.addAll(primeFactors);
+        primeFactors.clear();
+        primeFactors.addAll(unique);
+
         return primeFactors;
     }
 }
