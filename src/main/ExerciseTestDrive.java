@@ -15,30 +15,30 @@ public class ExerciseTestDrive {
         System.out.println("\nsingle star: ");
         t.singleStar();
 
-        System.out.println("\nhorizontal line: ");
+        System.out.println("\nhorizontal line:");
         t.horizontalStars(15);
 
-        System.out.println("\n\nvertical line: ");
+        System.out.println("\n\nvertical line:");
         t.verticalStars(3);
 
-        System.out.println("\n\ntriangle: ");
+        System.out.println("\n\ntriangle:");
         t.triangleStars(3);
 
         System.out.println("\n\nDIAMOND");
-        System.out.println("\nisosceles triangle: ");
+        System.out.println("\nisosceles triangle:");
         d.isoscelesTriangle(4);
 
-        System.out.println("\n\ndiamond: ");
+        System.out.println("\n\ndiamond:");
         d.diamond(9);
 
-        System.out.println("\n\ndiamond with name: ");
+        System.out.println("\n\ndiamond with name:");
         d.diamondName(9, "Mona");
 
-        System.out.println("\n\nFIZZBUZZ: ");
+        System.out.println("\n\nFIZZBUZZ");
         FizzBuzz fb = new FizzBuzz();
         fb.fizzbuzz();
 
-        System.out.println("\n\nPRIME FACTORIZATION ");
+        System.out.println("\n\nPRIME FACTORIZATION");
         PrimeFactors pf = new PrimeFactors();
         System.out.println(pf.generate(147));
 
