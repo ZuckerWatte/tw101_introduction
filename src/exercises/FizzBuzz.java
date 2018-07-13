@@ -4,18 +4,16 @@ public class FizzBuzz {
     public void fizzbuzz() {
         for (int i=1; i<= 100; i++) {
 
-            if (i%3 == 0 && i%5 == 0)  {
-                System.out.println("FizzBuzz");
+            if (i%3 == 0)  {
+                System.out.print("Fizz");
             }
-            else if (i%5 == 0) {
-                System.out.println("Buzz");
+            if (i%5 == 0) {
+                System.out.print("Buzz");
             }
-            else if (i%3 == 0) {
-                System.out.println("Fizz");
+            if ((i%3 > 0) && (i%5 > 0)) {
+                System.out.print(i);
             }
-            else {
-                System.out.println(i);
-            }
+            System.out.println("");
         }
     }
 }
