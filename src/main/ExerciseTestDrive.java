@@ -2,6 +2,7 @@ package main;
 
 import exercises.Diamond;
 import exercises.FizzBuzz;
+import exercises.PrimeFactors;
 import exercises.Triangle;
 
 public class ExerciseTestDrive {
@@ -36,6 +37,10 @@ public class ExerciseTestDrive {
         System.out.println("\n\nFIZZBUZZ: ");
         FizzBuzz fb = new FizzBuzz();
         fb.fizzbuzz();
+
+        System.out.println("\n\nPRIME FACTORIZATION ");
+        PrimeFactors pf = new PrimeFactors();
+        System.out.println(pf.generate(147));
 
     }
 }
